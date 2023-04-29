@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "lekhah"
+version = "0.1.0"
+description = "A Documentation template"
+authors = ["venkat-rajgopal <venkatramani.r@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = "^5"
+myst-parser = "1.0.0"
+sphinx-autobuild = "^2021.3.14"
+sphinxcontrib-mermaid = "0.8.1"
+nbsphinx = "^0.8.12"
+sphinx-autodoc2 = "^0.4.2"
+# pydata-sphinx-theme = "^0.13.3"
+sphinx-book-theme = "1.0.1"
+jupyter-sphinx = "^0.4.0"
+sphinx-togglebutton = "^0.3.2"
+sphinx-favicon = "^1.0.1"
+sphinx-remove-toctrees = "^0.0.3"
+sphinx-copybutton = "^0.5.2"
+pandoc = "^2.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
