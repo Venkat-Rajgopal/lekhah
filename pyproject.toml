@@ -22,6 +22,7 @@ sphinx-favicon = "^1.0.1"
 sphinx-remove-toctrees = "^0.0.3"
 sphinx-copybutton = "^0.5.2"
 pandoc = "^2.3"
+pandas = "^2.0.1"
 
 
 
